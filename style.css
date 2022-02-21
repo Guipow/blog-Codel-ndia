@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lexend+Deca&display=swap');
+
+/* Cabeçalho */
+
+body {
+    position: relative;
+    width: 1920;
+    height: 1080;
+}
+.cabeçalho {
+    width: 1920;
+    height: 250px;
+    background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-top: 41px;
+    padding-bottom: 73px;
+}
+.buscar img {
+    position: absolute;
+    margin: 20px;
+
+}
+.buscar-ipt {
+    width: 500px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding: 21px 682px 22px 64px;;
+}
+.buscar {
+    text-align: center;
+}
