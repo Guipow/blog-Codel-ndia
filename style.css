@@ -6,6 +6,7 @@ body {
     position: relative;
     width: 1920;
     height: 1080;
+    background-color: #F3F5F7;
 }
 .cabeçalho {
     width: 1920;
@@ -46,3 +47,44 @@ body {
 .buscar {
     text-align: center;
 }
+
+/* Main */
+
+.main-blogs {
+    display: flex;
+    justify-content: center;
+}
+.blog1 {
+    width: 1246px;
+    height: 195px;
+    margin-top: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+    border-radius: 5px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.blog1 h1 {
+    font-size: 26px;
+    line-height: 32px;
+    margin-left: 24px;
+    margin-bottom: 8px;
+}
+.blog1 p {
+    color: #717171;
+    font-size: 18px;
+    line-height: 32px;
+    margin-left: 24px;
+}
+.blog-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 23px 24px 22px 24px;
+    color: #717171;
+}
+.blog-header h2 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A202C;
+}
+
+/* Main blog 1 */
